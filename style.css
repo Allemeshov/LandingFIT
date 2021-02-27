@@ -6,25 +6,18 @@
 main {
   font-family: "Heebo", sans-serif;
 }
-.landing {
+.layer {
   min-height: 100vh;
   background: url("./src/bgtu.jpg");
   background-size: cover;
-  padding: 0rem 5rem;
+  /* background-color: rgba(90, 88, 88, 0.479); */
 }
 nav {
+  padding: 0rem 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   min-height: 10vh;
-}
-.nav-links {
-  display: flex;
-  list-style-type: none;
-}
-.nav-links li {
-  padding-left: 10rem;
-  font-size: 1.2rem;
 }
 #logo {
   font-family: "Lobster", cursive;
@@ -48,10 +41,12 @@ nav {
   position: absolute;
   top: 30%;
   left: 50%;
+  width: 60%;
+  height: 30vh;
   transform: translate(-50%, -30%);
   font-size: 5rem;
   font-family: "Lobster", cursive;
-  color: rgb(61, 61, 61);
+  color: rgba(219, 216, 216, 0.89);
 }
 .intro {
   background: white;
@@ -74,7 +69,7 @@ nav {
   display: flex;
   justify-content: center;
 }
-.slider {
+/* .slider {
   background: rgb(131, 141, 148);
   position: fixed;
   top: 0;
@@ -85,7 +80,7 @@ nav {
   justify-content: center;
   align-items: center;
   transform: translateY(100%);
-}
+} */
 .hide {
   background: white;
   overflow: hidden;
@@ -93,4 +88,9 @@ nav {
 .hide span {
   transform: translateY(100%);
   display: inline-block;
+}
+
+.landing {
+  min-height: 100vh;
+  background-color: rgba(90, 88, 88, 0.61);
 }
