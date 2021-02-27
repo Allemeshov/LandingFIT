@@ -8,7 +8,7 @@ main {
 }
 .landing {
   min-height: 100vh;
-  background: url("./hero.jpg");
+  background: url("./src/bgtu.jpg");
   background-size: cover;
   padding: 0rem 5rem;
 }
@@ -29,7 +29,20 @@ nav {
 #logo {
   font-family: "Lobster", cursive;
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#logo h1 {
+  margin-left: 15px;
+}
+#logo-pic {
+  width: 5vw;
+  height: 5vw;
+  background-image: url(./src/logo.png);
+  background-position: center;
+  background-size: cover;
 }
 .big-text {
   position: absolute;
@@ -41,7 +54,7 @@ nav {
   color: rgb(61, 61, 61);
 }
 .intro {
-  background: black;
+  background: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -52,9 +65,14 @@ nav {
   align-items: center;
 }
 .intro-text {
-  color: rgb(214, 220, 224);
+  color: black;
   font-family: "Heebo";
   font-size: 2rem;
+  display: block;
+}
+.intro-text h1 {
+  display: flex;
+  justify-content: center;
 }
 .slider {
   background: rgb(131, 141, 148);
@@ -69,7 +87,7 @@ nav {
   transform: translateY(100%);
 }
 .hide {
-  background: black;
+  background: white;
   overflow: hidden;
 }
 .hide span {
